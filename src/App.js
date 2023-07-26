@@ -8,9 +8,9 @@ const App = () => {
   return (
     <div style={{backgroundColor: "#EEEDED"}}>
       <Routes>
-      <Route path="/" element={<Home />}/>
-      <Route path="/Projects" element={<Projects />}/>
-      <Route path="/Blog" element={<Blog />}/>
+      <Route path="/portfolio" element={<Home />}/>
+      <Route path="/portfolio/Projects" element={<Projects />}/>
+      <Route path="/portfolio/Blog" element={<Blog />}/>
       </Routes>
     </div>
   );
